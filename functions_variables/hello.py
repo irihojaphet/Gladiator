@@ -4,7 +4,7 @@ name = input("Enter your name: ")
 
 name = name.strip().title()
 
-#split thae name into two parts if there is a space
+#split that name into two parts if there is a space
 
 if ' ' in name:
     first_name, last_name = name.split(' ', 1)
