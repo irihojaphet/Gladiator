@@ -8,3 +8,12 @@ SHOWS = [
     "Jimmy Neutron"
     "the Proud family"
 ]
+
+def main():
+    cleaned_shows = []
+    for show in SHOWS:
+        cleaned_shows.append(show.strip().title())
+    print('\n'.join(cleaned_shows))
+    
+
+main()
