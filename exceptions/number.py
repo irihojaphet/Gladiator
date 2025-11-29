@@ -1,8 +1,16 @@
-try:
-    x = int(input("What' x? "))
+def main():
+    x = get_int()
+    print(f"x is {x}")
 
-    
-except ValueError:
-    print("x is not an integer")
-else:
-    print(f"x is {x}")   
+def get_int():
+    while True:
+        try:
+            x = int(input("What' x? "))
+        except ValueError:
+            print("x is not an integer")
+        else:
+            break
+
+    return x   
+
+main()
