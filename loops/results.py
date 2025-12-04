@@ -9,6 +9,7 @@ results.insert[0, "Bowser"] # add at specific position
 results.sort() # sort alphabetically
 results.reverse() # reverse order
 results.clear() # remove all elements
+results.count("Mario") # count occurrences of an element
 
 
 print(results)
